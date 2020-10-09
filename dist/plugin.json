@@ -7,7 +7,7 @@
     "description": "Traffic lights for grafana",
     "author": {
       "name": "snuids",
-      "url": "https://github.com/snuids/trafficlights-panel"
+      "url": "https://github.com/xDany1/prubea"
     },
     "keywords": ["traffic","lights", "panel"],
     "logos": {
@@ -15,8 +15,8 @@
       "large": "src/img/traffic_light_logo.png"
     },
     "links": [
-      {"name": "Project site", "url": "https://github.com/snuids/trafficlights-panel"},
-      {"name": "MIT License", "url": "https://github.com/snuids/trafficlights-panel"}
+      {"name": "Project site", "url": "https://github.com/xDany1/prubea"},
+      {"name": "MIT License", "url": "https://github.com/xDany1/prubea"}
     ],
     "screenshots": [
       {"name": "Showcase", "path": "src/img/screenshot-traffic-showcase.jpg"},
