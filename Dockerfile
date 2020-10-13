@@ -13,6 +13,6 @@ RUN wget https://dl.grafana.com/oss/release/grafana_7.1.3_amd64.deb; \
 WORKDIR /var/lib/grafana/plugins
 
 RUN git clone https://github.com/xDany1/prubea.git; \
-    cd /var/lib/grafana/plugins/prubea; \
+    cd /var/lib/grafana/plugins/prubea;
 
 CMD /etc/init.d/grafana-server start 'daemon off;' && bash
