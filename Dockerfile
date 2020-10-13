@@ -2,8 +2,8 @@ FROM ubuntu
 
 RUN apt-get -y update ; \
     apt-get -y upgrade ; \
-    apt-get install -y apt-utils git wget ; \
-    apt-get install -y install adduser libfontconfig1 ;
+    apt-get install -y apt-utils wget git sudo ; \
+    apt-get -y install adduser libfontconfig1 curl dirmngr apt-transport-https lsb-release ca-certificates;
 
 EXPOSE 3000
 
